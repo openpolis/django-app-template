@@ -10,10 +10,8 @@ To start a new app with this template::
 
     # Install Django
     pip install django>=1.4
-    # Clone the repo
-    git clone git://github.com/mlavin/django-app-template.git
     # Use the template
-    django-admin.py startapp --template=django-app-template/template --extension=py,rst,in <app_name>
+    django-admin.py startapp --template=~/Workspace/django-app-template/template --extension=py,rst,in <app_name>
 
 
 What Does This Give You
